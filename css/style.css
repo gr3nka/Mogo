@@ -297,7 +297,7 @@ main {
   color: #999;
 }
 
-/* card -------------------------------------------*/
+/* card */
 .card {
   margin: 80px -15px 0;
   display: flex;
@@ -380,7 +380,7 @@ main {
   font-style: italic;
 }
 
-/* statistics -------------------------------------------*/
+/* statistics */
 .statistics {
   background-color: #95e1d3;
 }
@@ -417,7 +417,7 @@ main {
   text-transform: uppercase;
 }
 
-/* services -------------------------------------------*/
+/* services */
 .services {
   display: flex;
   flex-wrap: wrap;
@@ -475,7 +475,7 @@ main {
   z-index: 1;
 }
 
-/* wedo -------------------------------------------*/
+/* wedo */
 .wedo {
   display: flex;
   flex-wrap: wrap;
@@ -563,7 +563,7 @@ main {
   display: none;
 }
 
-/* reviews -------------------------------------------*/
+/* reviews */
 .reviews {
   position: relative;
   padding: 0 110px;
@@ -643,7 +643,7 @@ main {
   transform: rotate(135deg);
 }
 
-/* social -------------------------------------------*/
+/* social */
 .social {
   display: flex;
   justify-content: center;
@@ -673,7 +673,7 @@ main {
   color: #fff;
 }
 
-/* logos -------------------------------------------*/
+/* logos */
 .logos {
   display: flex;
   justify-content: space-between;
@@ -691,7 +691,7 @@ main {
   height: auto;
 }
 
-/* Works -------------------------------------------*/
+/* Works */
 .works {
   display: flex;
 }
@@ -752,7 +752,7 @@ main {
   font-size: 15px;
 }
 
-/* Clients -------------------------------------------*/
+/* Clients */
 .clients {
   display: flex;
   flex-wrap: wrap;
@@ -809,7 +809,7 @@ main {
   background-color: #f38181;
 }
 
-/* Blog -------------------------------------------*/
+/* Blog */
 .blog {
   display: flex;
   flex-wrap: wrap;
@@ -908,7 +908,7 @@ main {
   color: #95e1d3;
 }
 
-/* Map -------------------------------------------*/
+/* Map */
 .map {
   text-align: center;
 }
@@ -939,7 +939,7 @@ main {
   text-decoration: underline;
 }
 
-/* Footer -------------------------------------------*/
+/* Footer */
 .footer {
   padding-top: 65px;
 
@@ -1147,9 +1147,9 @@ main {
   color: #f38181;
 }
 
-/* Footer -------------------------------------------*/
+/* Footer */
 @media (max-width: 1220px) {
-  /* Intro -------------------------------------------*/
+  /* Intro */
   .intro__suptitle {
     font-size: 52px;
   }
@@ -1158,14 +1158,14 @@ main {
     font-size: 120px;
   }
 
-  /* Reviews -------------------------------------------*/
+  /* Reviews */
   .reviews__text {
     font-size: 20px;
   }
 }
 
 @media (max-width: 990px) {
-  /* Intro -------------------------------------------*/
+  /* Intro */
   .intro__suptitle {
     font-size: 32px;
   }
@@ -1174,7 +1174,7 @@ main {
     font-size: 80px;
   }
 
-  /* Statistics -------------------------------------------*/
+  /* Statistics */
   .stat {
     justify-content: center;
   }
@@ -1192,7 +1192,7 @@ main {
     border-right: 0;
   }
 
-  /* Services -------------------------------------------*/
+  /* Services */
   .services__item {
     width: 50%;
     padding-bottom: 0;
@@ -1202,7 +1202,7 @@ main {
     border-bottom: 0;
   }
 
-  /* Reviews -------------------------------------------*/
+  /* Reviews */
   .reviews {
     padding: 0 60px;
   }
@@ -1220,7 +1220,7 @@ main {
     padding-top: 0;
   }
 
-  /* Clients -------------------------------------------*/
+  /* Clients */
   .clients {
     max-width: 600px;
     margin: 0 auto;
@@ -1235,7 +1235,7 @@ main {
     margin-bottom: 0;
   }
 
-  /* footer -------------------------------------------*/
+  /* footer */
   .footer__col--first {
     width: 100%;
   }
@@ -1256,12 +1256,12 @@ main {
 }
 
 @media (max-width: 770px) {
-  /* Header -------------------------------------------*/
+  /* Header */
   .nav {
     display: none;
   }
 
-  /* Section -------------------------------------------*/
+  /* Section */
   .section {
     padding: 40px 0;
   }
@@ -1270,12 +1270,12 @@ main {
     padding-bottom: 0;
   }
 
-  /* Intro -------------------------------------------*/
+  /* Intro */
   .intro {
     min-height: 650px;
   }
 
-  /* Slider -------------------------------------------*/
+  /* Slider */
   .slider__text {
     display: none;
   }
@@ -1284,7 +1284,7 @@ main {
     width: 50%;
   }
 
-  /* Card -------------------------------------------*/
+  /* Card */
   .card {
     justify-content: center;
     margin-top: 50px;
@@ -1299,7 +1299,7 @@ main {
     margin-bottom: 0;
   }
 
-  /* Services -------------------------------------------*/
+  /* Services */
   .services {
     justify-content: center;
   }
@@ -1315,7 +1315,7 @@ main {
     left: 0;
   }
 
-  /* Section wedo -------------------------------------------*/
+  /* Section wedo */
   .wedo__img {
     display: none;
   }
@@ -1324,7 +1324,7 @@ main {
     width: 100%;
   }
 
-  /* Reviews -------------------------------------------*/
+  /* Reviews */
   .reviews__item {
     padding-left: 0;
   }
@@ -1342,7 +1342,7 @@ main {
     font-size: 20px;
   }
 
-  /* Works -------------------------------------------*/
+  /* Works */
   .works {
     flex-wrap: wrap;
   }
@@ -1352,7 +1352,7 @@ main {
     width: 50%;
   }
 
-  /* Blog -------------------------------------------*/
+  /* Blog */
   .blog {
     max-width: 380px;
     margin: 0 auto;
@@ -1367,7 +1367,7 @@ main {
     margin-bottom: 0;
   }
 
-  /* footer -------------------------------------------*/
+  /* footer */
   .footer__col--second,
   .footer__col--third {
     width: 100%;
@@ -1375,7 +1375,7 @@ main {
 }
 
 @media (max-width: 575px) {
-  /* Intro -------------------------------------------*/
+  /* Intro */
   .intro__suptitle {
     font-size: 22px;
   }
@@ -1384,7 +1384,7 @@ main {
     font-size: 40px;
   }
 
-  /* Section -------------------------------------------*/
+  /* Section */
   .section__header {
     margin-bottom: 50px;
   }
@@ -1401,7 +1401,7 @@ main {
     margin: 20px auto;
   }
 
-  /* Statistics -------------------------------------------*/
+  /* Statistics */
   .stat__item {
     width: 100%;
     border-bottom: 1px solid #b5eae0;
@@ -1415,7 +1415,7 @@ main {
     font-size: 52px;
   }
 
-  /* Devices -------------------------------------------*/
+  /* Devices */
   .devices {
     max-width: 320px;
   }
@@ -1426,7 +1426,7 @@ main {
     right: -25px;
   }
 
-  /* Reviews -------------------------------------------*/
+  /* Reviews */
   .reviews {
     padding: 0;
   }
@@ -1435,7 +1435,7 @@ main {
     top: 18%;
   }
 
-  /* Logos -------------------------------------------*/
+  /* Logos */
   .logos {
     flex-wrap: wrap;
     justify-content: center;
@@ -1450,12 +1450,12 @@ main {
     margin: 0 auto;
   }
 
-  /* Works -------------------------------------------*/
+  /* Works */
   .works__col {
     width: 100%;
   }
 
-  /* Clients -------------------------------------------*/
+  /* Clients */
   .clients__item {
     padding-left: 0;
     text-align: center;
@@ -1469,7 +1469,7 @@ main {
     margin: 15px auto;
   }
 
-  /* footer -------------------------------------------*/
+  /* footer */
   .blogs__img {
     width: 80px;
     height: 50px;
